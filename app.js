@@ -26,7 +26,6 @@ app.get('/',function(req,res){
 app.post('/search',function(req,res){
     var search=req.body.search;
     console.log(search);
-
     var api='https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch='+search;
     console.log(api);
     https
