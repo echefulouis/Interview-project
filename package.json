@@ -1,0 +1,20 @@
+{
+  "name": "interview",
+  "version": "1.0.0",
+  "description": "Making an api call",
+  "main": "app.js",
+  "scripts": {
+    "start": "npm app.js",
+    "dev": "nodemon npm app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nodemon": "*",
+    "http": "*",
+    "https": "*"
+  }
+}
